@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3139CD8A1F39620700E3BE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3139CD891F39620700E3BE20 /* AppDelegate.swift */; };
+		3139CD8C1F39620700E3BE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3139CD8B1F39620700E3BE20 /* ViewController.swift */; };
+		3139CD8F1F39620700E3BE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3139CD8D1F39620700E3BE20 /* Main.storyboard */; };
+		3139CD911F39620700E3BE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3139CD901F39620700E3BE20 /* Assets.xcassets */; };
+		3139CD941F39620700E3BE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3139CD921F39620700E3BE20 /* LaunchScreen.storyboard */; };
+		3139CD9F1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3139CD9E1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.swift */; };
+		3139CDAA1F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3139CDA91F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3139CD9B1F39620700E3BE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3139CD7E1F39620700E3BE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3139CD851F39620700E3BE20;
+			remoteInfo = PickerGetVideoAndImageDemo;
+		};
+		3139CDA61F39620800E3BE20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3139CD7E1F39620700E3BE20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3139CD851F39620700E3BE20;
+			remoteInfo = PickerGetVideoAndImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3139CD861F39620700E3BE20 /* PickerGetVideoAndImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerGetVideoAndImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3139CD891F39620700E3BE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3139CD8B1F39620700E3BE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3139CD8E1F39620700E3BE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3139CD901F39620700E3BE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3139CD931F39620700E3BE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3139CD951F39620700E3BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3139CD9A1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerGetVideoAndImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3139CD9E1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerGetVideoAndImageDemoTests.swift; sourceTree = "<group>"; };
+		3139CDA01F39620700E3BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3139CDA51F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerGetVideoAndImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3139CDA91F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerGetVideoAndImageDemoUITests.swift; sourceTree = "<group>"; };
+		3139CDAB1F39620800E3BE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3139CD831F39620700E3BE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139CD971F39620700E3BE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139CDA21F39620800E3BE20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3139CD7D1F39620700E3BE20 = {
+			isa = PBXGroup;
+			children = (
+				3139CD881F39620700E3BE20 /* PickerGetVideoAndImageDemo */,
+				3139CD9D1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests */,
+				3139CDA81F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests */,
+				3139CD871F39620700E3BE20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3139CD871F39620700E3BE20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3139CD861F39620700E3BE20 /* PickerGetVideoAndImageDemo.app */,
+				3139CD9A1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.xctest */,
+				3139CDA51F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3139CD881F39620700E3BE20 /* PickerGetVideoAndImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3139CD891F39620700E3BE20 /* AppDelegate.swift */,
+				3139CD8B1F39620700E3BE20 /* ViewController.swift */,
+				3139CD8D1F39620700E3BE20 /* Main.storyboard */,
+				3139CD901F39620700E3BE20 /* Assets.xcassets */,
+				3139CD921F39620700E3BE20 /* LaunchScreen.storyboard */,
+				3139CD951F39620700E3BE20 /* Info.plist */,
+			);
+			path = PickerGetVideoAndImageDemo;
+			sourceTree = "<group>";
+		};
+		3139CD9D1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3139CD9E1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.swift */,
+				3139CDA01F39620700E3BE20 /* Info.plist */,
+			);
+			path = PickerGetVideoAndImageDemoTests;
+			sourceTree = "<group>";
+		};
+		3139CDA81F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3139CDA91F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.swift */,
+				3139CDAB1F39620800E3BE20 /* Info.plist */,
+			);
+			path = PickerGetVideoAndImageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3139CD851F39620700E3BE20 /* PickerGetVideoAndImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3139CDAE1F39620800E3BE20 /* Build configuration list for PBXNativeTarget "PickerGetVideoAndImageDemo" */;
+			buildPhases = (
+				3139CD821F39620700E3BE20 /* Sources */,
+				3139CD831F39620700E3BE20 /* Frameworks */,
+				3139CD841F39620700E3BE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerGetVideoAndImageDemo;
+			productName = PickerGetVideoAndImageDemo;
+			productReference = 3139CD861F39620700E3BE20 /* PickerGetVideoAndImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3139CD991F39620700E3BE20 /* PickerGetVideoAndImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3139CDB11F39620800E3BE20 /* Build configuration list for PBXNativeTarget "PickerGetVideoAndImageDemoTests" */;
+			buildPhases = (
+				3139CD961F39620700E3BE20 /* Sources */,
+				3139CD971F39620700E3BE20 /* Frameworks */,
+				3139CD981F39620700E3BE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3139CD9C1F39620700E3BE20 /* PBXTargetDependency */,
+			);
+			name = PickerGetVideoAndImageDemoTests;
+			productName = PickerGetVideoAndImageDemoTests;
+			productReference = 3139CD9A1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3139CDA41F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3139CDB41F39620800E3BE20 /* Build configuration list for PBXNativeTarget "PickerGetVideoAndImageDemoUITests" */;
+			buildPhases = (
+				3139CDA11F39620800E3BE20 /* Sources */,
+				3139CDA21F39620800E3BE20 /* Frameworks */,
+				3139CDA31F39620800E3BE20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3139CDA71F39620800E3BE20 /* PBXTargetDependency */,
+			);
+			name = PickerGetVideoAndImageDemoUITests;
+			productName = PickerGetVideoAndImageDemoUITests;
+			productReference = 3139CDA51F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3139CD7E1F39620700E3BE20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "岁变";
+				TargetAttributes = {
+					3139CD851F39620700E3BE20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZT27N77L73;
+						ProvisioningStyle = Automatic;
+					};
+					3139CD991F39620700E3BE20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3139CD851F39620700E3BE20;
+					};
+					3139CDA41F39620800E3BE20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3139CD851F39620700E3BE20;
+					};
+				};
+			};
+			buildConfigurationList = 3139CD811F39620700E3BE20 /* Build configuration list for PBXProject "PickerGetVideoAndImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3139CD7D1F39620700E3BE20;
+			productRefGroup = 3139CD871F39620700E3BE20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3139CD851F39620700E3BE20 /* PickerGetVideoAndImageDemo */,
+				3139CD991F39620700E3BE20 /* PickerGetVideoAndImageDemoTests */,
+				3139CDA41F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3139CD841F39620700E3BE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3139CD941F39620700E3BE20 /* LaunchScreen.storyboard in Resources */,
+				3139CD911F39620700E3BE20 /* Assets.xcassets in Resources */,
+				3139CD8F1F39620700E3BE20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139CD981F39620700E3BE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139CDA31F39620800E3BE20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3139CD821F39620700E3BE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3139CD8C1F39620700E3BE20 /* ViewController.swift in Sources */,
+				3139CD8A1F39620700E3BE20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139CD961F39620700E3BE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3139CD9F1F39620700E3BE20 /* PickerGetVideoAndImageDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3139CDA11F39620800E3BE20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3139CDAA1F39620800E3BE20 /* PickerGetVideoAndImageDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3139CD9C1F39620700E3BE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3139CD851F39620700E3BE20 /* PickerGetVideoAndImageDemo */;
+			targetProxy = 3139CD9B1F39620700E3BE20 /* PBXContainerItemProxy */;
+		};
+		3139CDA71F39620800E3BE20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3139CD851F39620700E3BE20 /* PickerGetVideoAndImageDemo */;
+			targetProxy = 3139CDA61F39620800E3BE20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3139CD8D1F39620700E3BE20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3139CD8E1F39620700E3BE20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3139CD921F39620700E3BE20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3139CD931F39620700E3BE20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3139CDAC1F39620800E3BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3139CDAD1F39620800E3BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3139CDAF1F39620800E3BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT27N77L73;
+				INFOPLIST_FILE = PickerGetVideoAndImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.PickerGetVideoAndImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3139CDB01F39620800E3BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZT27N77L73;
+				INFOPLIST_FILE = PickerGetVideoAndImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.PickerGetVideoAndImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3139CDB21F39620800E3BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickerGetVideoAndImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.PickerGetVideoAndImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerGetVideoAndImageDemo.app/PickerGetVideoAndImageDemo";
+			};
+			name = Debug;
+		};
+		3139CDB31F39620800E3BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickerGetVideoAndImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.PickerGetVideoAndImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerGetVideoAndImageDemo.app/PickerGetVideoAndImageDemo";
+			};
+			name = Release;
+		};
+		3139CDB51F39620800E3BE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PickerGetVideoAndImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.PickerGetVideoAndImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PickerGetVideoAndImageDemo;
+			};
+			name = Debug;
+		};
+		3139CDB61F39620800E3BE20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PickerGetVideoAndImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.PickerGetVideoAndImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PickerGetVideoAndImageDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3139CD811F39620700E3BE20 /* Build configuration list for PBXProject "PickerGetVideoAndImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139CDAC1F39620800E3BE20 /* Debug */,
+				3139CDAD1F39620800E3BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3139CDAE1F39620800E3BE20 /* Build configuration list for PBXNativeTarget "PickerGetVideoAndImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139CDAF1F39620800E3BE20 /* Debug */,
+				3139CDB01F39620800E3BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3139CDB11F39620800E3BE20 /* Build configuration list for PBXNativeTarget "PickerGetVideoAndImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139CDB21F39620800E3BE20 /* Debug */,
+				3139CDB31F39620800E3BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3139CDB41F39620800E3BE20 /* Build configuration list for PBXNativeTarget "PickerGetVideoAndImageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3139CDB51F39620800E3BE20 /* Debug */,
+				3139CDB61F39620800E3BE20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3139CD7E1F39620700E3BE20 /* Project object */;
+}
